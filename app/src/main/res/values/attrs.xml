@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SelectPhotoRecyclerView">
+        <attr name="showType" format="enum">
+            <enum name="display" value="0"/>
+            <enum name="upload" value="1"/>
+        </attr>
+        <attr name="spanCount" format="integer"/>
+        <attr name="limitCount" format="integer"/>
+        <attr name="requestCode" format="integer"/>
+    </declare-styleable>
+
+</resources>
